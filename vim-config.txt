@@ -1,0 +1,65 @@
+"******说明：配置一般有两个选项 打开和关闭，关闭为设置参数前加"no"，如set nonumber，
+
+
+
+"*****基本配置
+
+"行号
+set number  
+
+”语法高亮
+syntax on
+
+"底部显示当前模式（插入）
+set showmode
+
+"命令模式下，底部显示当前输入的指令，默认不显示
+set showcmd
+
+"支持使用鼠标
+"set mouse=a
+   
+"启用256色   
+"set t_Co=256
+
+"使用 utf-8 编码
+"set encoding=utf-8  
+
+
+"*****缩进（tab键相关）
+
+"按tab自动保持与上一行一致
+set autoindent
+
+"按tab时vim显示的空格数
+set tabstop=4
+
+"tab转为空格
+set expandtab
+
+"tab转为多少个空格
+set softtabstop=2
+
+
+
+"*****外观
+
+"光标所在行高亮
+set cursorline
+
+
+
+
+"*****搜索
+
+"遇到括号自动高亮对应的括号
+set showmatch
+
+"高亮显示匹配结果
+set hlsearch
+
+"搜索时，每输入一个字符，就自动调到第一个匹配的结果
+set incsearch
+
+
+"*****
