@@ -1,0 +1,15 @@
+test.out:test.o ./src/sub.o ./src/add.o ./src/div1.o
+	gcc test.o ./src/sub.o ./src/add.o ./src/div1.o -o test.out
+
+test.o:test.c
+	gcc -c test.c -o test.o -I./inc
+
+./src/add.o:./src/add.c
+	gcc -c ./src/add.c -o ./src/add.o
+
+./src/sub.o:./src/sub.c
+	gcc -c ./src/sub.c -o ./src/sub.o
+
+./src/div1.o:./src/div1.c
+	gcc -c ./src/div1.c -o ./src/div1.o
+
